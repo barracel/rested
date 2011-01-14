@@ -16,6 +16,14 @@ The current version is ReSTEd_1.0.0.alpha and only has a very crude non configur
 * Interpreted
 * InlineLiteral
 * Link
+
+Has been tested only in Ubuntu lucid + eclipse helios
+  
+How to install
+~~~~~~~~~~~~~~
+Right now the only way to install it is by compiling the plugin and
+droping the jar file in your plugin/dropin folder.
+I still need to improve this...  
   
 TODO
 ~~~~~
