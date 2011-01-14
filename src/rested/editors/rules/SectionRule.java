@@ -7,6 +7,13 @@ import org.eclipse.jface.text.rules.IPredicateRule;
 import org.eclipse.jface.text.rules.IToken;
 import org.eclipse.jface.text.rules.Token;
 
+/**
+ * Rules to highlight ReST sections.
+ * They are tricky because there are not clear start end sequences for them. So
+ * standard multiline rules cannot be applied... 
+ *
+ * //TODO handle resume flag correctly
+ */
 public class SectionRule implements IPredicateRule {
 
     /** The token to be returned on success */
@@ -32,6 +39,11 @@ public class SectionRule implements IPredicateRule {
         return doEvaluate(scanner, resume);
     }
 
+    /**
+     * Tries to match the following pattern: \n(===+\n)?.*\n[${validDecorators}]+\n
+     * 
+     * 
+     */
     protected IToken doEvaluate(ICharacterScanner scanner, boolean resume) {
         int readCount = 0;
         int c;
@@ -59,6 +71,11 @@ public class SectionRule implements IPredicateRule {
         return Token.UNDEFINED;
     }
 
+    /**
+     * Reads a line of made of +3 decorator characters
+     * @param scanner
+     * @return
+     */
     protected int readDecoratorLine(ICharacterScanner scanner) {
         int c;
         int readCount = 0;
@@ -77,6 +94,9 @@ public class SectionRule implements IPredicateRule {
         }
     }
 
+    /**
+     * Returns <code>true</code> if the character is a valid decorator. 
+     */
     protected boolean isDecorator(int c) {
         for (int decorator : validDecorators) {
             if (decorator == c) {
@@ -85,7 +105,12 @@ public class SectionRule implements IPredicateRule {
         }
         return false;
     }
-    
+
+    /**
+     * Undeads N characters
+     * @param scanner
+     * @param count Number of characters to unread
+     */
     protected void unread(ICharacterScanner scanner, int count) {
         for (int i = 0; i < count; i++) {
             scanner.unread();
@@ -95,7 +120,7 @@ public class SectionRule implements IPredicateRule {
     /**
      * @stolen from LdifRecordRule.java
      * 
-     *         Checks for new line "\n", "\r" or "\r\n".
+     * Checks for new line "\n", "\r" or "\r\n".
      * 
      * @param scanner
      * @return
@@ -125,6 +150,5 @@ public class SectionRule implements IPredicateRule {
             return 0;
         }
     }
-    
 }
     

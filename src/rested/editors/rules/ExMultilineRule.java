@@ -7,10 +7,10 @@ import org.eclipse.jface.text.rules.IToken;
 import org.eclipse.jface.text.rules.MultiLineRule;
 
 /**
- * Work as the MultilineRule but after the
+ * Work as the MultilineRule but after the start secuence does not allow an space.
+ * That way the start sequences can be used in the text without being part of a Exmultiline rule.
  * 
- * @author oso
- * 
+ * //TODO Find a better name... now is a very bad tribute to win32 api...
  */
 public class ExMultilineRule extends MultiLineRule {
 

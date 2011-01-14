@@ -8,7 +8,11 @@ import org.eclipse.jface.text.rules.*;
 
 import rested.editors.rules.ExMultilineRule;
 import rested.editors.rules.SectionRule;
-
+/**
+ * Basic partition scanner needed for multiline rules. Otherwise the partitions are not 
+ * correctly update while editing. 
+ *
+ */
 public class ReSTEdPartitionScanner extends RuleBasedPartitionScanner {
     public final static String SECTION = "__ReSTEd_SECTION";
 
@@ -19,7 +23,7 @@ public class ReSTEdPartitionScanner extends RuleBasedPartitionScanner {
 		
 
 		List<IPredicateRule> rules = new ArrayList<IPredicateRule>();
-		rules.add(new SectionRule(defaultCon));
+		rules.add(new SectionRule(section));
 		rules.add(new ExMultilineRule("*", "*", defaultCon));
         rules.add(new ExMultilineRule("**", "**", defaultCon));
         rules.add(new ExMultilineRule("`", "`", defaultCon));

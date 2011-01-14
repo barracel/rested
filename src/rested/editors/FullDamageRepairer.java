@@ -11,6 +11,12 @@ import org.eclipse.jface.text.presentation.IPresentationRepairer;
 import org.eclipse.jface.text.rules.DefaultDamagerRepairer;
 import org.eclipse.jface.text.rules.ITokenScanner;
 
+/**
+ * 
+ * Hack to force the partition to update on every keystroke. 
+ * Otherwise sections rules are no "real time updated". 
+ * //TODO: Really groK the performance/implication of what we do here...
+ */
 public class FullDamageRepairer extends DefaultDamagerRepairer {
 
     public FullDamageRepairer(ITokenScanner scanner) {

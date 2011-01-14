@@ -110,15 +110,15 @@ public class ReSTedConfiguration extends SourceViewerConfiguration {
 
 
 
-        DefaultDamagerRepairer dr = new FullDamageRepairer(getScanner());
+        DefaultDamagerRepairer dr = new DefaultDamagerRepairer(getScanner());
         reconciler.setDamager(dr, IDocument.DEFAULT_CONTENT_TYPE);
         reconciler.setRepairer(dr, IDocument.DEFAULT_CONTENT_TYPE);
         
-        
-//        dr = new FullDamageRepairer(getSectionScanner());
-//        reconciler.setDamager(dr, ReSTEdPartitionScanner.SECTION);
-//        reconciler.setRepairer(dr, ReSTEdPartitionScanner.SECTION);
-        
+        //Section scanner is handled in as separated content so we use the FullDamageRepairer
+        //only in the needed sections (is really overkill...)
+        dr = new FullDamageRepairer(getSectionScanner());
+        reconciler.setDamager(dr, ReSTEdPartitionScanner.SECTION);
+        reconciler.setRepairer(dr, ReSTEdPartitionScanner.SECTION);
 
         return reconciler;
     }
