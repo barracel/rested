@@ -1,3 +1,4 @@
+
 Sample for wiki: 
 http://svn.phpeclipse.com/branches/1.2.x/archive/net.sourceforge.phpeclipse.wiki/src/net/sourceforge/phpeclipse/wiki/editor/WikiSourceViewerConfiguration.java
 

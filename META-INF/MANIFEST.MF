@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ReSTEd
 Bundle-SymbolicName: ReSTEd; singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.0.alpha
 Bundle-Activator: rested.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
@@ -10,3 +10,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.editors
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: rested,
+ rested.editors,
+ rested.editors.rules

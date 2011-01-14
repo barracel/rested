@@ -27,7 +27,7 @@ public class ColorManager {
 		if (color == null) {
 			color = new Color(Display.getCurrent(), rgb);
 			fColorTable.put(rgb, color);
-		}
+		}     
 		return color;
 	}
 }
