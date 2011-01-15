@@ -11,11 +11,12 @@ So I decided to implement it myself.
 Status
 ~~~~~~
 The current version is ReSTEd_1.0.0.alpha and only has a very crude non configurable syntax higlight for:
+
 - Sections
 - Emphasis
 - Interpreted
 - InlineLiteral
-- Link
+- Links
 
 Has been tested only in Ubuntu lucid + eclipse helios
   
