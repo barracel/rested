@@ -22,7 +22,12 @@ Has been tested only in Ubuntu lucid + eclipse helios
 
 Screenshots
 ~~~~~~~~~~~
-An screenshot of the plugin can be found here: http://www.hackrastinator.com/rested/img/screenshot1.png 
+
+.. figure:: http://www.hackrastinator.com/rested/img/screenshot1.png
+   :scale: 20 %
+   :alt: Screenshot of rested eclipse plugin
+
+   Screenshot of rested eclipse plugin
 
   
 How to install
