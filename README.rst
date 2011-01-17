@@ -22,9 +22,14 @@ Has been tested only in Ubuntu lucid + eclipse helios
   
 How to install
 ~~~~~~~~~~~~~~
-Right now the only way to install it is by compiling the plugin and
-droping the jar file in your plugin/dropin folder.
-I still need to improve this...  
+
+An update site have been created in http://www.hackrastinator.com/rested
+The plugin is not signed so you will get a ugly warining about installing
+unsinged content. 
+ 
+Also you can always compile the plugin and
+copy the jar file in your plugin/dropin folder.
+  
   
 TODO
 ~~~~~
@@ -39,4 +44,5 @@ There many things to do. But a very basic list could be:
 - Tables support (I envy you! emacs users!)
 - Spell checker (you know you need it!)
 - Choose a lincense
+- Fix the Unsinged content warning in the update site
 - Improve TODO list...
