@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ReSTEd
 Bundle-SymbolicName: ReSTEd; singleton:=true
-Bundle-Version: 1.0.0.alpha
+Bundle-Version: 1.0.0.alpha1
 Bundle-Activator: rested.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,

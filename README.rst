@@ -10,7 +10,7 @@ So I decided to implement it myself.
 
 Status
 ~~~~~~
-The current version is ReSTEd_1.0.0.alpha and only has a very crude non configurable syntax higlight for:
+The current version is ReSTEd_1.0.0.alpha1 and only has a very crude non configurable syntax higlight for:
 
 - Sections
 - Emphasis
@@ -24,8 +24,8 @@ How to install
 ~~~~~~~~~~~~~~
 
 An update site have been created in http://www.hackrastinator.com/rested
-The plugin is not signed so you will get a ugly warining about installing
-unsinged content. 
+The plugin is not signed so you will get a ugly warning about installing
+unsinged content... 
  
 Also you can always compile the plugin and
 copy the jar file in your plugin/dropin folder.
@@ -44,5 +44,6 @@ There many things to do. But a very basic list could be:
 - Tables support (I envy you! emacs users!)
 - Spell checker (you know you need it!)
 - Choose a lincense
-- Fix the Unsinged content warning in the update site
+- Fix the Unsinged content warning in the update site.. (Any kind sould with a
+  trusted certificate to sign it for me?!?!)
 - Improve TODO list...
