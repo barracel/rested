@@ -9,9 +9,9 @@ import org.eclipse.swt.graphics.RGB;
 import org.eclipse.swt.widgets.Display;
 
 public class ColorManager {
-    static RGB COMMENT = new RGB(255, 0, 0);
-    static RGB TITLE = new RGB(0, 255, 0);
-    static RGB LINK = new RGB(0, 0, 255);
+    static RGB HIGH = new RGB(127, 0, 81);
+    static RGB TITLE = new RGB(0, 200, 0);
+    static RGB LINK = new RGB(0, 60, 200);
     static RGB DEFAULT = new RGB(0, 0, 0);
     static RGB DEFAULT_SECTION = new RGB(255, 0, 255);
     

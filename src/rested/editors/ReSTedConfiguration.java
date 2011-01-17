@@ -42,16 +42,14 @@ class SectionScanner extends RuleBasedScanner {
 class Scanner extends RuleBasedScanner {
     public Scanner(ColorManager colorManager) {
         Token title = new Token(new TextAttribute(colorManager.getColor(ColorManager.TITLE)));
-        Token comment = new Token(new TextAttribute(colorManager.getColor(ColorManager.COMMENT)));
-        Token emphasis = new Token(new TextAttribute(colorManager.getColor(ColorManager.COMMENT)));
-        Token strongEmphasis = new Token(new TextAttribute(colorManager.getColor(ColorManager.COMMENT)));
-        Token interpreted = new Token(new TextAttribute(colorManager.getColor(ColorManager.COMMENT)));
-        Token inlineLiteral = new Token(new TextAttribute(colorManager.getColor(ColorManager.COMMENT)));
+        Token emphasis = new Token(new TextAttribute(colorManager.getColor(ColorManager.HIGH), null, SWT.BOLD));
+        Token strongEmphasis = emphasis;
+        Token interpreted = emphasis;
+        Token inlineLiteral = emphasis;
         Token link = new Token(new TextAttribute(colorManager.getColor(ColorManager.LINK), null, SWT.BOLD));
         Token lists = new Token(new TextAttribute(colorManager.getColor(ColorManager.DEFAULT), null, SWT.BOLD));
         
         List<IRule> rules = new ArrayList<IRule>();
-        rules.add(new SingleLineRule("#", null, comment));
         rules.add(new ExMultilineRule("*", "*", emphasis));
         rules.add(new ExMultilineRule("**", "**", strongEmphasis));
         rules.add(new ExMultilineRule("`", "`", interpreted));
