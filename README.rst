@@ -31,7 +31,7 @@ Screenshots
 How to install
 ~~~~~~~~~~~~~~
 
-An update site have been created in http://www.hackrastinator.com/rested
+An update site have been created in http://www.hackrastinator.com/rested/update 
 
 The plugin is not signed so you will get a ugly warning about installing
 unsinged content... 
