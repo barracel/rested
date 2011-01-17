@@ -1,7 +1,7 @@
 
 ReSTed editor
 =============
-Basic reStructuredText markup editor for eclipse
+Basic *reStructuredText* markup editor for eclipse
 
 Motivation
 ~~~~~~~~~~
@@ -10,7 +10,7 @@ So I decided to implement it myself.
 
 Status
 ~~~~~~
-The current version is ReSTEd_1.0.0.alpha1 and only has a very crude non configurable syntax higlight for:
+The current version is *ReSTEd_1.0.0.alpha1* and only has a very crude non configurable syntax higlight for:
 
 - Sections
 - Emphasis
@@ -19,11 +19,17 @@ The current version is ReSTEd_1.0.0.alpha1 and only has a very crude non configu
 - Links
 
 Has been tested only in Ubuntu lucid + eclipse helios
+
+Screenshots
+~~~~~~~~~~~
+An screenshot of the plugin can be found here: http://www.hackrastinator.com/rested/img/screenshot1.png 
+
   
 How to install
 ~~~~~~~~~~~~~~
 
 An update site have been created in http://www.hackrastinator.com/rested
+
 The plugin is not signed so you will get a ugly warning about installing
 unsinged content... 
  
