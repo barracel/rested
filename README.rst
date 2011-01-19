@@ -18,7 +18,7 @@ The current version is *ReSTEd_1.0.0.alpha1* and only has a very crude non confi
 - InlineLiteral
 - Links
 
-Has been tested only in Ubuntu lucid + eclipse helios
+Has been tested only in Ubuntu lucid + Eclipse Helios
 
 Screenshots
 ~~~~~~~~~~~
@@ -26,7 +26,7 @@ Screenshots
 .. image:: http://www.hackrastinator.com/rested/img/tn_screenshot1.png
    :alt: Screenshot of rested eclipse plugin
    :target: http://www.hackrastinator.com/rested/img/screenshot1.png 
-   
+    
   
 How to install
 ~~~~~~~~~~~~~~
@@ -55,4 +55,6 @@ There many things to do. But a very basic list could be:
 - Choose a lincense
 - Fix the Unsinged content warning in the update site.. (Any kind sould with a
   trusted certificate to sign it for me?!?!)
+- Add a nicer icon...
 - Improve TODO list...
+
