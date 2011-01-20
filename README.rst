@@ -55,7 +55,6 @@ There many things to do. But a very basic list could be:
 - Choose a lincense
 - Fix the Unsinged content warning in the update site.. (Any kind sould with a
   trusted certificate to sign it for me?!?!)
-- Add a nicer icon...
 - Improve TODO list...
 
 Licensing
