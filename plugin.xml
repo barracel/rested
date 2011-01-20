@@ -7,7 +7,7 @@
       <editor
             name="ReST Editor"
             extensions="rst"
-            icon="icons/sample.gif"
+            icon="icons/rst.gif"
             contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
             class="rested.editors.ReSTEd"
             id="rested.editors.ReSTEd">
