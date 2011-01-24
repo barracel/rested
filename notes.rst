@@ -1,9 +1,9 @@
 
 Sample for wiki: 
-http://svn.phpeclipse.com/branches/1.2.x/archive/net.sourceforge.phpeclipse.wiki/src/net/sourceforge/phpeclipse/wiki/editor/WikiSourceViewerConfiguration.java
+http://svn.phpeclipse.com/branches/1.2.x/archive/net.sourceforge.phpeclipse.wiki/src/net/sourceforge/phpeclipse/wiki/editor/WikiSourceViewerConfiguration.java 
 
 IBM tutorial:
-http://www.eclipse.org/eclipse/platform-text/eclipseCon/2006/texteditorrecipes.pdf
+http://www.eclipse.org/eclipse/platform-text/eclipseCon/2006/texteditorrecipes.pdf 
 
 Semantic highlight:
 http://www.eclipse.org/eclipse/platform-text/eclipseCon/talk.pdf
@@ -17,3 +17,12 @@ https://bugs.eclipse.org/bugs/show_bug.cgi?id=51217
 
 Example of a custom token partition scanner:
 http://www.google.com/codesearch/p?hl=en#SshE6Z6fnWc/archives/vendors/eclipse-platform/plugins/org.eclipse.jdt.ui/src/org/eclipse/jdt/internal/ui/text/FastJavaPartitionScanner.java&q=FastJavaPartitionScanner&sa=N&cd=1&ct=rc
+
+Stackoverflow about rest
+http://stackoverflow.com/questions/2746692/restructuredtext-tool-support
+
+Realtime editor:
+http://blog.enthought.com/enthought-tool-suite/an-editor-for-restructured-text/ 
+
+Emacs rst:
+http://showmedo.com/videotutorials/video?name=980010&fromSeriesID=98

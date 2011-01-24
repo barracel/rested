@@ -50,9 +50,12 @@ There many things to do. But a very basic list could be:
 - Update site to ease installation and updates
 - Add block support and auto indentation
 - Html/Pdf preview
+- Real time html preview like:
+--  http://www.youtube.com/watch?v=IaM5MgJqtdA
+--  http://blog.enthought.com/enthought-tool-suite/an-editor-for-restructured-text/  
+            
 - Tables support (I envy you! emacs users!)
 - Spell checker (you know you need it!)
-- Choose a lincense
 - Fix the Unsinged content warning in the update site.. (Any kind sould with a
   trusted certificate to sign it for me?!?!)
 - Improve TODO list...
