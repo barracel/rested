@@ -54,8 +54,8 @@ class Scanner extends RuleBasedScanner {
         rules.add(new ExMultilineRule("**", "**", strongEmphasis));
         rules.add(new ExMultilineRule("`", "`", interpreted));
         rules.add(new ExMultilineRule("``", "``", inlineLiteral));
-        rules.add(new SingleLineRule("http://", " ", link));
-        rules.add(new SingleLineRule("https://", " ", link));
+        rules.add(new SingleLineRule("http://", " ", link, (char) 0, true));
+        rules.add(new SingleLineRule("https://", " ", link, (char) 0, true));
         PatternRule pr = new PatternRule("*", " ", lists, (char) 0, true);
         pr.setColumnConstraint(0);
         rules.add(pr);
