@@ -90,7 +90,7 @@ public class ReSTedConfiguration extends SourceViewerConfiguration {
         if (sectionScanner == null) {
             sectionScanner = new SectionScanner(colorManager);
             sectionScanner.setDefaultReturnToken(new Token(new TextAttribute(colorManager
-                    .getColor(ColorManager.DEFAULT_SECTION))));
+                    .getColor(ColorManager.TITLE))));
         }
         return sectionScanner;
     }
