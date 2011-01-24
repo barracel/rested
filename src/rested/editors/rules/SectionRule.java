@@ -18,7 +18,7 @@ public class SectionRule implements IPredicateRule {
 
     /** The token to be returned on success */
     protected IToken fToken;
-    protected char[] validDecorators = "= - ` : ' \" ~ ^ _ * + # < >".toCharArray();
+    protected char[] validDecorators = "=-`:'\"~^_*+#<>".toCharArray();
 
     public SectionRule(IToken token) {
         fToken = token;
