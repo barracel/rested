@@ -47,13 +47,11 @@ There many things to do. But a very basic list could be:
 - Fix some bugs that the syntax parser already has (mostly with sections partitions)
 - Chose better color scheme (Right now has the classic RGB coder palette...)
 - Add more syntax elements to the parser
-- Update site to ease installation and updates
 - Add block support and auto indentation
 - Html/Pdf preview
 - Real time html preview like:
---  http://www.youtube.com/watch?v=IaM5MgJqtdA
---  http://blog.enthought.com/enthought-tool-suite/an-editor-for-restructured-text/  
-            
+    -  http://www.youtube.com/watch?v=IaM5MgJqtdA
+    -  http://blog.enthought.com/enthought-tool-suite/an-editor-for-restructured-text/  
 - Tables support (I envy you! emacs users!)
 - Spell checker (you know you need it!)
 - Fix the Unsinged content warning in the update site.. (Any kind sould with a
