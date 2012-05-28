@@ -3,13 +3,20 @@ ReSTed editor
 =============
 Basic *reStructuredText* markup editor for eclipse
 
-Motivation
-~~~~~~~~~~
-Not sure why I haven't been able to found any reStructuredText editor for eclipse (shame on you pydev guys :P)
-So I decided to implement it myself.
+Original Motivation
+~~~~~~~~~~~~~~~~~~~
+Circa 2010::
+   Not sure why I haven't been able to found any reStructuredText editor for eclipse (shame on you pydev guys :P)
+   So I decided to implement it myself.
 
 Status
 ~~~~~~
+**The project is mostly dead.** I started the project to scratch my own itch but now I
+have http://resteditor.sourceforge.net/ to scratch it for me! There for all development of the project from my part
+will cease (I really never enjoyed eclipse development) I left the code to dry out in the sun hoping someone can make some use of it
+
+Version Alpha1
+~~~~~~~~~~~~~~
 The current version is *ReSTEd_1.0.0.alpha1* and only has a very crude non configurable syntax higlight for:
 
 - Sections
@@ -20,28 +27,8 @@ The current version is *ReSTEd_1.0.0.alpha1* and only has a very crude non confi
 
 Has been tested only in Ubuntu lucid + Eclipse Helios
 
-Screenshots
-~~~~~~~~~~~
-
-.. image:: http://www.hackrastinator.com/rested/img/tn_screenshot1.png
-   :alt: Screenshot of rested eclipse plugin
-   :target: http://www.hackrastinator.com/rested/img/screenshot1.png 
-    
-  
-How to install
-~~~~~~~~~~~~~~
-
-An update site have been created in http://www.hackrastinator.com/rested/update 
-
-The plugin is not signed so you will get a ugly warning about installing
-unsinged content... 
- 
-Also you can always compile the plugin and
-copy the jar file in your plugin/dropin folder.
-  
-
 TODO
-~~~~~
+~~~~
 There many things to do. But a very basic list could be:
 
 - Fix some bugs that the syntax parser already has (mostly with sections partitions)
@@ -51,7 +38,7 @@ There many things to do. But a very basic list could be:
 - Html/Pdf preview
 - Real time html preview like:
     -  http://www.youtube.com/watch?v=IaM5MgJqtdA
-    -  http://blog.enthought.com/enthought-tool-suite/an-editor-for-restructured-text/  
+    -  http://blog.enthought.com/enthought-tool-suite/an-editor-for-restructured-text/
 - Tables support (I envy you! emacs users!)
 - Spell checker (you know you need it!)
 - Fix the Unsinged content warning in the update site.. (Any kind sould with a
